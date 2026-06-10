@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Doctor Talks by Dr. Sandeep Reddy Koppula — health education videos on diabetes, hypertension, infectious diseases, thyroid, and internal medicine at Arete Hospitals, Hyderabad.">
+    <title>Doctor Talks | Dr. Sandeep Reddy Koppula — Health Education</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/site.css">
+</head>
+<body>
+
+    <div class="site-header-sticky">
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-info">
+                <span><i class="fa-solid fa-hospital"></i> Arete Hospitals, Gachibowli, Hyderabad</span>
+                <span><i class="fa-solid fa-clock"></i> Mon - Sat: 09:00 AM - 05:00 PM</span>
+            </div>
+            <div>
+                <span style="font-weight:600;"><i class="fa-solid fa-phone"></i> OP Booking: 040-61626311</span>
+            </div>
+        </div>
+    </div>
+
+    <header id="header">
+        <div class="container navbar">
+            <a href="index.html" class="logo">
+                <div class="logo-icon"><i class="fa-solid fa-user-md"></i></div>
+                <div class="logo-text">
+                    <h2>Dr. Sandeep Reddy</h2>
+                    <span>Internal Medicine Head</span>
+                </div>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <button class="menu-close-btn" id="menuCloseBtn" aria-label="Close menu">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-dropdown">
+                    <a href="services.html" class="nav-link">Services <i class="fa-solid fa-chevron-down nav-chevron"></i></a>
+                    <ul class="nav-submenu">
+                        <li><a href="services.html">All Services</a></li>
+                        <li><a href="service-diabetes.html">Diabetes Care</a></li>
+                    </ul>
+                </li>
+                <li><a href="doctors-talks.html" class="nav-link active">Doctors Talks</a></li>
+                <li><a href="doctors-awards-gallery.html" class="nav-link">Awards &amp; Gallery</a></li>
+                <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+                <li><button class="btn-header" id="bookNowBtn">Book Now</button></li>
+            </ul>
+        </div>
+    </header>
+    </div>
+
+    <div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
+
+    <main>
+
+        <section class="page-hero">
+            <div class="container">
+                <div class="page-hero-inner reveal">
+                    <nav class="breadcrumb" aria-label="Breadcrumb">
+                        <a href="index.html">Home</a>
+                        <i class="fa-solid fa-chevron-right" style="font-size:10px;"></i>
+                        <span>Doctors Talks</span>
+                    </nav>
+                    <h1>Doctor Talks &amp; Health Education</h1>
+                    <p>Expert insights from Dr. Sandeep Reddy on diabetes, hypertension, infections, and everyday health — clear, evidence-based guidance you can trust.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Talk -->
+        <section class="talks-featured-section">
+            <div class="container">
+                <div class="talks-featured reveal">
+                    <button class="talk-thumb talks-featured-thumb" type="button" data-youtube="" aria-label="Play featured talk">
+                        <div class="talk-thumb-bg talk-bg-diabetes">
+                            <i class="fa-solid fa-droplet"></i>
+                        </div>
+                        <span class="talk-play-btn"><i class="fa-solid fa-play"></i></span>
+                        <span class="talk-duration">12 min</span>
+                    </button>
+                    <div class="talks-featured-info">
+                        <p class="section-label" style="display:inline-block;margin-bottom:12px;">Featured Talk</p>
+                        <h2>Understanding Diabetes — Early Signs, Prevention &amp; Modern Management</h2>
+                        <p>Dr. Sandeep Reddy explains how to identify early warning signs of diabetes, the role of lifestyle changes, and evidence-based treatment approaches including insulin therapy and complication prevention.</p>
+                        <div class="talk-meta">
+                            <span><i class="fa-solid fa-tag"></i> Metabolic Health</span>
+                            <span><i class="fa-solid fa-calendar"></i> Health Education</span>
+                            <span><i class="fa-solid fa-user-md"></i> Dr. Sandeep Reddy</span>
+                        </div>
+                        <button class="btn-primary talk-watch-btn" type="button" data-youtube="">
+                            <i class="fa-solid fa-circle-play"></i> Watch Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- All Talks -->
+        <section class="talks-page-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <p class="section-label">Video Library</p>
+                    <h2>Explore Health Topics</h2>
+                    <p class="section-desc">Browse talks covering the most common conditions treated at Arete Hospitals — from metabolic disorders to infectious diseases and preventative care.</p>
+                </div>
+
+                <div class="talks-filter reveal">
+                    <button class="talks-filter-btn active" type="button" data-filter="all">All Talks</button>
+                    <button class="talks-filter-btn" type="button" data-filter="metabolic">Metabolic</button>
+                    <button class="talks-filter-btn" type="button" data-filter="infections">Infections</button>
+                    <button class="talks-filter-btn" type="button" data-filter="general">General Health</button>
+                </div>
+
+                <div class="talks-grid">
+
+                    <article class="talk-card reveal reveal-delay-1" data-category="metabolic">
+                        <button class="talk-thumb" type="button" data-youtube="" aria-label="Play: Managing Hypertension">
+                            <div class="talk-thumb-bg talk-bg-hypertension"><i class="fa-solid fa-heart-pulse"></i></div>
+                            <span class="talk-play-btn"><i class="fa-solid fa-play"></i></span>
+                            <span class="talk-duration">8 min</span>
+                        </button>
+                        <div class="talk-card-body">
+                            <span class="talk-category">Metabolic</span>
+                            <h3>Managing Hypertension — Blood Pressure &amp; Heart Health</h3>
+                            <p>Learn about resistant hypertension, lifestyle modifications, and European evidence-based protocols for long-term cardiovascular protection.</p>
+                        </div>
+                    </article>
+
+                    <article class="talk-card reveal reveal-delay-2" data-category="infections">
+                        <button class="talk-thumb" type="button" data-youtube="" aria-label="Play: Fever and Infections">
+                            <div class="talk-thumb-bg talk-bg-fever"><i class="fa-solid fa-temperature-high"></i></div>
+                            <span class="talk-play-btn"><i class="fa-solid fa-play"></i></span>
+                            <span class="talk-duration">10 min</span>
+                        </button>
+                        <div class="talk-card-body">
+                            <span class="talk-category">Infections</span>
+                            <h3>When Should You Worry About Fever?</h3>
+                            <p>Understanding prolonged fever, pyrexia of unknown origin, and when to seek specialist evaluation for unexplained infections.</p>
+                        </div>
+                    </article>
+
+                    <article class="talk-card reveal reveal-delay-3" data-category="metabolic">
+                        <button class="talk-thumb" type="button" data-youtube="" aria-label="Play: Thyroid Disorders">
+                            <div class="talk-thumb-bg talk-bg-thyroid"><i class="fa-solid fa-capsules"></i></div>
+                            <span class="talk-play-btn"><i class="fa-solid fa-play"></i></span>
+                            <span class="talk-duration">9 min</span>
+                        </button>
+                        <div class="talk-card-body">
+                            <span class="talk-category">Metabolic</span>
+                            <h3>Thyroid Disorders — Symptoms &amp; Treatment Options</h3>
+                            <p>A clear guide to hypothyroidism, hyperthyroidism, and thyroid nodules — including when testing and specialist care are needed.</p>
+                        </div>
+                    </article>
+
+                    <article class="talk-card reveal reveal-delay-4" data-category="infections">
+                        <button class="talk-thumb" type="button" data-youtube="" aria-label="Play: Infectious Diseases">
+                            <div class="talk-thumb-bg talk-bg-infection"><i class="fa-solid fa-bacterium"></i></div>
+                            <span class="talk-play-btn"><i class="fa-solid fa-play"></i></span>
+                            <span class="talk-duration">11 min</span>
+                        </button>
+                        <div class="talk-card-body">
+                            <span class="talk-category">Infections</span>
+                            <h3>Infectious Diseases — Prevention &amp; Early Detection</h3>
+                            <p>How to protect against common infections, recognise warning signs of sepsis, and understand tropical disease risks in India.</p>
+                        </div>
+                    </article>
+
+                    <article class="talk-card reveal reveal-delay-1" data-category="general">
+                        <button class="talk-thumb" type="button" data-youtube="" aria-label="Play: Autoimmune Disorders">
+                            <div class="talk-thumb-bg talk-bg-autoimmune"><i class="fa-solid fa-shield-virus"></i></div>
+                            <span class="talk-play-btn"><i class="fa-solid fa-play"></i></span>
+                            <span class="talk-duration">7 min</span>
+                        </button>
+                        <div class="talk-card-body">
+                            <span class="talk-category">General Health</span>
+                            <h3>Autoimmune Disorders — Signs &amp; Long-Term Care</h3>
+                            <p>What autoimmune conditions are, how they are diagnosed, and the importance of specialist-led immunotherapy and follow-up.</p>
+                        </div>
+                    </article>
+
+                    <article class="talk-card reveal reveal-delay-2" data-category="general">
+                        <button class="talk-thumb" type="button" data-youtube="" aria-label="Play: Immunity and Wellness">
+                            <div class="talk-thumb-bg talk-bg-immunity"><i class="fa-solid fa-shield-halved"></i></div>
+                            <span class="talk-play-btn"><i class="fa-solid fa-play"></i></span>
+                            <span class="talk-duration">8 min</span>
+                        </button>
+                        <div class="talk-card-body">
+                            <span class="talk-category">General Health</span>
+                            <h3>Building Strong Immunity — Science-Backed Tips</h3>
+                            <p>Practical advice on strengthening your immune system, managing recurrent infections, and knowing when immunity therapy may help.</p>
+                        </div>
+                    </article>
+
+                    <article class="talk-card reveal reveal-delay-3" data-category="general">
+                        <button class="talk-thumb" type="button" data-youtube="" aria-label="Play: Acute Medical Emergencies">
+                            <div class="talk-thumb-bg talk-bg-acute"><i class="fa-solid fa-hospital-user"></i></div>
+                            <span class="talk-play-btn"><i class="fa-solid fa-play"></i></span>
+                            <span class="talk-duration">6 min</span>
+                        </button>
+                        <div class="talk-card-body">
+                            <span class="talk-category">General Health</span>
+                            <h3>Acute Medical Emergencies — When to Visit the Hospital</h3>
+                            <p>Recognising sepsis, multi-organ dysfunction, and other critical conditions that require immediate hospital-level care.</p>
+                        </div>
+                    </article>
+
+                    <article class="talk-card reveal reveal-delay-4" data-category="general">
+                        <button class="talk-thumb" type="button" data-youtube="" aria-label="Play: Preventative Health">
+                            <div class="talk-thumb-bg talk-bg-prevent"><i class="fa-solid fa-leaf"></i></div>
+                            <span class="talk-play-btn"><i class="fa-solid fa-play"></i></span>
+                            <span class="talk-duration">9 min</span>
+                        </button>
+                        <div class="talk-card-body">
+                            <span class="talk-category">General Health</span>
+                            <h3>Preventative Health — Screenings Every Adult Needs</h3>
+                            <p>Dr. Sandeep Reddy on proactive health screenings, lifestyle habits, and preventing chronic disease before it starts.</p>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="about-cta">
+            <div class="container">
+                <div class="about-cta-inner reveal">
+                    <div>
+                        <h2>Have a Health Question?</h2>
+                        <p>Schedule a one-on-one consultation with Dr. Sandeep Reddy at Arete Hospitals, Gachibowli — Mon to Sat, 09:00 AM to 05:00 PM.</p>
+                    </div>
+                    <div class="about-cta-btns">
+                        <a href="index.html#booking" class="btn-primary">
+                            <i class="fa-solid fa-calendar-check"></i> Book Consultation
+                        </a>
+                        <a href="about.html" class="btn-secondary">
+                            <i class="fa-solid fa-user-md"></i> About the Doctor
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-logo">
+                <h3>Dr. Sandeep Reddy K.</h3>
+                <p>Dedicated to delivering international-standard healthcare with accurate diagnosis, empathy, and evidence-based medicine.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div>
+                <h4 class="footer-title">Quick Links</h4>
+                <div class="footer-links">
+                    <a href="index.html"><i class="fa-solid fa-chevron-right"></i> Home</a>
+                    <a href="about.html"><i class="fa-solid fa-chevron-right"></i> About</a>
+                    <a href="services.html"><i class="fa-solid fa-chevron-right"></i> Services</a>
+                    <a href="doctors-talks.html"><i class="fa-solid fa-chevron-right"></i> Doctors Talks</a>
+                    <a href="doctors-awards-gallery.html"><i class="fa-solid fa-chevron-right"></i> Awards &amp; Gallery</a>
+                    <a href="contact.html"><i class="fa-solid fa-chevron-right"></i> Contact Us</a>
+                </div>
+            </div>
+            <div>
+                <h4 class="footer-title">Clinic Location</h4>
+                <p style="color:white;margin-bottom:8px;">Arete Hospitals OPD</p>
+                <p>Gachibowli, Hyderabad, Telangana — 500032</p>
+                <p style="margin-top:12px;"><i class="fa-solid fa-phone"></i> 040-61626311</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Dr. Sandeep Reddy Koppula. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/914061626311" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Video Modal -->
+    <div class="video-modal" id="videoModal">
+        <div class="modal-overlay" id="videoModalOverlay"></div>
+        <div class="video-modal-content">
+            <button class="modal-close" id="videoModalClose" aria-label="Close video">&times;</button>
+            <div class="video-modal-player" id="videoModalPlayer">
+                <div class="video-placeholder" id="videoPlaceholder">
+                    <i class="fa-solid fa-video"></i>
+                    <h3>Video Coming Soon</h3>
+                    <p>This talk will be available shortly. Book a consultation for personalised guidance in the meantime.</p>
+                    <a href="index.html#booking" class="btn-primary">Book Consultation</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick Booking Modal -->
+    <div class="booking-modal" id="bookingModal">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <h3>Quick Booking</h3>
+            <p class="modal-subtitle">Schedule your consultation with Dr. Sandeep Reddy</p>
+            <form id="quickBookingForm" class="modal-form">
+                <div class="form-group">
+                    <label for="modalName">Full Name</label>
+                    <input type="text" id="modalName" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="modalEmail">Email Address</label>
+                    <input type="email" id="modalEmail" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="modalPhone">Mobile Number</label>
+                    <input type="tel" id="modalPhone" name="phone" placeholder="Enter your mobile number" pattern="[0-9\-\+\(\)\s]+" required>
+                </div>
+                <button type="submit" class="btn-primary modal-submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const menuCloseBtn = document.getElementById('menuCloseBtn');
+        const navMenu = document.getElementById('navMenu');
+        const navOverlay = document.getElementById('navOverlay');
+        const html = document.documentElement;
+
+        function closeMenu() {
+            navMenu.classList.remove('open');
+            navOverlay.classList.remove('open');
+            html.classList.remove('menu-open');
+            document.body.style.overflow = '';
+            document.querySelectorAll('.nav-dropdown').forEach(d => d.classList.remove('open'));
+        }
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('open');
+            navOverlay.classList.toggle('open');
+            html.classList.toggle('menu-open');
+            document.body.style.overflow = navMenu.classList.contains('open') ? 'hidden' : '';
+        });
+        menuCloseBtn.addEventListener('click', closeMenu);
+        navOverlay.addEventListener('click', closeMenu);
+        navMenu.querySelectorAll('.nav-submenu a').forEach(link => link.addEventListener('click', closeMenu));
+        navMenu.querySelectorAll('a:not(.nav-dropdown > .nav-link)').forEach(link => link.addEventListener('click', closeMenu));
+
+        document.querySelectorAll('.nav-dropdown > .nav-link').forEach(trigger => {
+            trigger.addEventListener('click', (e) => {
+                if (window.innerWidth <= 992) {
+                    e.preventDefault();
+                    trigger.closest('.nav-dropdown').classList.toggle('open');
+                }
+            });
+        });
+
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            header.classList.toggle('scrolled', window.scrollY > 40);
+        });
+
+        const revealEls = document.querySelectorAll('.reveal');
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('visible');
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+        revealEls.forEach(el => revealObserver.observe(el));
+
+        // Category filter
+        const filterBtns = document.querySelectorAll('.talks-filter-btn');
+        const talkCards = document.querySelectorAll('.talk-card');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                const filter = btn.dataset.filter;
+                talkCards.forEach(card => {
+                    card.style.display = (filter === 'all' || card.dataset.category === filter) ? '' : 'none';
+                });
+            });
+        });
+
+        // Video modal
+        const videoModal = document.getElementById('videoModal');
+        const videoModalOverlay = document.getElementById('videoModalOverlay');
+        const videoModalClose = document.getElementById('videoModalClose');
+        const videoModalPlayer = document.getElementById('videoModalPlayer');
+        const videoPlaceholder = document.getElementById('videoPlaceholder');
+
+        function openVideoModal(youtubeId) {
+            videoModalPlayer.querySelector('iframe')?.remove();
+            if (youtubeId) {
+                videoPlaceholder.style.display = 'none';
+                const iframe = document.createElement('iframe');
+                iframe.src = `https://www.youtube.com/embed/${youtubeId}?autoplay=1&rel=0`;
+                iframe.title = 'Doctor Talk Video';
+                iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+                iframe.allowFullscreen = true;
+                videoModalPlayer.appendChild(iframe);
+            } else {
+                videoPlaceholder.style.display = '';
+            }
+            videoModal.classList.add('open');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeVideoModal() {
+            videoModal.classList.remove('open');
+            document.body.style.overflow = '';
+            videoModalPlayer.querySelector('iframe')?.remove();
+            videoPlaceholder.style.display = '';
+        }
+
+        document.querySelectorAll('[data-youtube]').forEach(el => {
+            el.addEventListener('click', () => openVideoModal(el.dataset.youtube));
+        });
+
+        videoModalClose.addEventListener('click', closeVideoModal);
+        videoModalOverlay.addEventListener('click', closeVideoModal);
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeVideoModal();
+        });
+
+        // Booking modal
+        const bookingModal = document.getElementById('bookingModal');
+        const modalOverlay = document.getElementById('modalOverlay');
+        const modalClose = document.getElementById('modalClose');
+        const bookNowBtn = document.getElementById('bookNowBtn');
+        const quickBookingForm = document.getElementById('quickBookingForm');
+
+        function openModal() {
+            bookingModal.classList.add('open');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeModal() {
+            bookingModal.classList.remove('open');
+            document.body.style.overflow = '';
+        }
+
+        bookNowBtn.addEventListener('click', openModal);
+        modalClose.addEventListener('click', closeModal);
+        modalOverlay.addEventListener('click', closeModal);
+
+        quickBookingForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const btn = e.target.querySelector('.modal-submit');
+            const original = btn.innerHTML;
+            btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Submitting...';
+            btn.disabled = true;
+            setTimeout(() => {
+                btn.innerHTML = '<i class="fa-solid fa-check"></i> Submitted Successfully!';
+                setTimeout(() => {
+                    btn.innerHTML = original;
+                    btn.disabled = false;
+                    quickBookingForm.reset();
+                    closeModal();
+                }, 1500);
+            }, 1200);
+        });
+    </script>
+
+</body>
+</html>

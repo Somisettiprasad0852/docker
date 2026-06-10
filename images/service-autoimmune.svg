@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Autoimmune care icon</title>
+  <desc id="desc">Shield with immune markers representing autoimmune disorder treatment</desc>
+  <g fill="none" stroke="#313c4e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M64 22l24 10v18c0 18-10 31-24 40-14-9-24-22-24-40V32l24-10z"/>
+    <circle cx="64" cy="51" r="10"/>
+    <path d="M64 45v12m-6-6h12"/>
+    <circle cx="42" cy="78" r="7"/>
+    <circle cx="86" cy="78" r="7"/>
+    <circle cx="64" cy="86" r="6"/>
+    <path d="M49 78h30"/>
+  </g>
+  <path d="M64 41a10 10 0 0 1 10 10" stroke="#ff9a5a" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="42" cy="78" r="3" fill="#ff9a5a"/>
+  <circle cx="86" cy="78" r="3" fill="#ff9a5a"/>
+  <path d="M24 96h80" stroke="#e9edf2" stroke-width="4" stroke-linecap="round"/>
+</svg>

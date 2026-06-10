@@ -1,0 +1,27 @@
+<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <title>Immunity therapy icon</title>
+  <defs>
+    <style>
+      .immunity-line { fill: none; stroke: #313c4e; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+      .immunity-accent { fill: #ff9a5a; stroke: #313c4e; stroke-width: 2.5; }
+    </style>
+  </defs>
+  <!-- Shield outline -->
+  <path class="immunity-line" d="M 64 28 L 45 40 L 45 60 Q 45 80 64 95 Q 83 80 83 60 L 83 40 Z" stroke-width="3"/>
+  <!-- Central immune cell -->
+  <circle class="immunity-accent" cx="64" cy="62" r="10"/>
+  <!-- Surrounding defending cells -->
+  <circle class="immunity-accent" cx="45" cy="50" r="7" opacity="0.8"/>
+  <circle class="immunity-accent" cx="83" cy="50" r="7" opacity="0.8"/>
+  <circle class="immunity-accent" cx="55" cy="75" r="6" opacity="0.8"/>
+  <circle class="immunity-accent" cx="73" cy="75" r="6" opacity="0.8"/>
+  <!-- Connection lines showing immunity network -->
+  <line class="immunity-line" x1="54" y1="58" x2="45" y2="50" stroke-width="2" opacity="0.6"/>
+  <line class="immunity-line" x1="74" y1="58" x2="83" y2="50" stroke-width="2" opacity="0.6"/>
+  <line class="immunity-line" x1="60" y1="70" x2="55" y2="75" stroke-width="2" opacity="0.6"/>
+  <line class="immunity-line" x1="68" y1="70" x2="73" y2="75" stroke-width="2" opacity="0.6"/>
+  <!-- Activation rays at top -->
+  <path class="immunity-line" d="M 50 35 L 45 25" stroke-width="2.5"/>
+  <path class="immunity-line" d="M 64 25 L 64 15" stroke-width="2.5"/>
+  <path class="immunity-line" d="M 78 35 L 83 25" stroke-width="2.5"/>
+</svg>

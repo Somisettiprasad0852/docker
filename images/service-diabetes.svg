@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Diabetes management icon</title>
+  <desc id="desc">Glucose meter with blood drop representing diabetes treatment</desc>
+  <g fill="none" stroke="#313c4e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="70" y="24" width="32" height="52" rx="8"/>
+    <rect x="76" y="31" width="20" height="14" rx="3"/>
+    <circle cx="86" cy="62" r="4"/>
+    <path d="M60 76h44"/>
+    <path d="M28 28c-9 12-14 18-14 28a16 16 0 0 0 32 0c0-10-5-16-14-28l-2-3-2 3z"/>
+  </g>
+  <path d="M28 31c-6 8-10 13-10 21a12 12 0 0 0 24 0c0-8-4-13-10-21l-2-3-2 3z" fill="#ff9a5a" opacity="0.35"/>
+  <path d="M81 38h10" stroke="#ff9a5a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M24 91h78" stroke="#e9edf2" stroke-width="4" stroke-linecap="round"/>
+</svg>

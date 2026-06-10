@@ -1,0 +1,24 @@
+<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <title>Thyroid disorders icon</title>
+  <defs>
+    <style>
+      .thyroid-line { fill: none; stroke: #313c4e; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+      .thyroid-accent { fill: #ff9a5a; stroke: #313c4e; stroke-width: 2.5; }
+    </style>
+  </defs>
+  <!-- Thyroid gland shape -->
+  <path class="thyroid-line" d="M 64 35 C 52 35 45 42 45 52 C 45 62 52 68 64 68 C 76 68 83 62 83 52 C 83 42 76 35 64 35" stroke-width="3"/>
+  <!-- Left lobe extension -->
+  <path class="thyroid-line" d="M 55 68 C 50 78 48 85 48 92 C 48 98 52 100 56 100" stroke-width="3"/>
+  <!-- Right lobe extension -->
+  <path class="thyroid-line" d="M 73 68 C 78 78 80 85 80 92 C 80 98 76 100 72 100" stroke-width="3"/>
+  <!-- Central notch -->
+  <line class="thyroid-line" x1="64" y1="52" x2="64" y2="68" stroke-width="3"/>
+  <!-- Accent dots representing hormones -->
+  <circle class="thyroid-accent" cx="55" cy="50" r="4"/>
+  <circle class="thyroid-accent" cx="73" cy="50" r="4"/>
+  <circle class="thyroid-accent" cx="64" cy="62" r="3.5"/>
+  <!-- Activity pulses -->
+  <path class="thyroid-line" d="M 35 105 Q 45 100 55 105" stroke-width="2.5" opacity="0.7"/>
+  <path class="thyroid-line" d="M 73 105 Q 83 100 93 105" stroke-width="2.5" opacity="0.7"/>
+</svg>

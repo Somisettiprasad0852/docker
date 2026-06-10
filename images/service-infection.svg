@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Infectious disease care icon</title>
+  <desc id="desc">Protective shield and microbe showing infection treatment</desc>
+  <g fill="none" stroke="#313c4e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M64 20l30 12v22c0 21-12 35-30 46-18-11-30-25-30-46V32l30-12z"/>
+    <circle cx="64" cy="52" r="13"/>
+    <circle cx="64" cy="52" r="4"/>
+    <path d="M64 36v6m0 20v6m-16-16h6m20 0h6m-24-9 4 4m16 16 4 4m0-24-4 4m-16 16-4 4"/>
+  </g>
+  <path d="M49 69l30-30" stroke="#ff9a5a" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="90" cy="30" r="7" fill="#ff9a5a" opacity="0.28"/>
+  <path d="M24 95h80" stroke="#e9edf2" stroke-width="4" stroke-linecap="round"/>
+</svg>

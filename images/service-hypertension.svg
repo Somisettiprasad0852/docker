@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Hypertension care icon</title>
+  <desc id="desc">Blood pressure cuff with heart pulse for hypertension treatment</desc>
+  <g fill="none" stroke="#313c4e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="22" y="36" width="36" height="24" rx="8"/>
+    <path d="M58 48h18"/>
+    <circle cx="86" cy="48" r="16"/>
+    <path d="M80 48h4l3-6 5 12 4-8h5"/>
+    <path d="M40 60v16c0 9 7 16 16 16h16"/>
+  </g>
+  <path d="M86 38a10 10 0 0 1 10 10" stroke="#ff9a5a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M74 83c6-7 13-9 18-2 4 5 1 11-5 16-4 3-8 5-11 7-3-2-7-4-10-7-6-5-9-11-5-16 5-7 12-5 18 2z" fill="#ff9a5a" opacity="0.35"/>
+  <path d="M24 93h80" stroke="#e9edf2" stroke-width="4" stroke-linecap="round"/>
+</svg>
